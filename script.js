@@ -99,6 +99,19 @@ accordionItems.forEach((item) => {
   });
 });
 
+// Best sellers carousel controls
+const bestCarousel = document.querySelector('.best-sellers__carousel');
+const bestSellerNav = document.querySelectorAll('[data-seller-nav]');
+
+bestSellerNav.forEach((button) => {
+  button.addEventListener('click', () => {
+    if (!bestCarousel) return;
+    const direction = button.dataset.sellerNav === 'next' ? 1 : -1;
+    const scrollAmount = bestCarousel.clientWidth * 0.8;
+    bestCarousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+  });
+});
+
 // Scroll reveal animation
 const revealElements = document.querySelectorAll('.section, .team-card, .timeline-item');
 const revealObserver = new IntersectionObserver(
