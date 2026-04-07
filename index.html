@@ -24,7 +24,7 @@
         <div class="nav__menu" id="navMenu">
           <a href="#about">About</a>
           <a href="#values">Pillars</a>
-          <a href="#movement">Campaign</a>
+          <a href="#movement" data-default-nav="true">Campaign</a>
           <a href="#shop">Best Sellers</a>
           <a href="#timeline">Timeline</a>
           <a href="#highlights">Highlights</a>
@@ -38,10 +38,25 @@
 
   <main>
     <section class="hero" id="top">
+      <div class="hero__blob hero__blob--blue hero__blob--top-left" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--gold hero__blob--top-center" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--red hero__blob--top-right" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--blue hero__blob--bottom-left" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--gold hero__blob--bottom-center" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--red hero__blob--bottom-right" aria-hidden="true"></div>
       <div class="container hero__grid">
         <div class="hero__content">
-          <p class="eyebrow">The SINAG Movement</p>
-          <h1>Piliin ang Bukas 2026</h1>
+          <div class="hero__kicker-wrap">
+            <p class="eyebrow eyebrow--hero">The <span>SINAG</span> Movement</p>
+            <span class="hero__sun" aria-hidden="true"></span>
+          </div>
+          <h1 class="hero__title">
+            <span>Piliin ang Bukas</span>
+            <span>2026</span>
+          </h1>
+          <div class="hero__scribble hero__scribble--underline" aria-hidden="true"></div>
+          <div class="hero__spark hero__spark--left" aria-hidden="true"></div>
+          <div class="hero__spark hero__spark--right" aria-hidden="true"></div>
           <p class="lead">Sulong! Isaboy ang Ningning, Aninag ang Gabay. Sumiklab, Mag-Alab, Sumilab! SINAG is the youth-led concert and advocacy that invites every young person to choose hope, purpose, and informed decisions—especially around teenage pregnancy prevention.</p>
           <ul class="hero__details">
             <li><strong>Concert Day:</strong> July 5, 2026 · Live updates continue through July 12, 2026.</li>
@@ -60,10 +75,21 @@
           </div>
         </div>
         <div class="hero__media">
+          <div class="hero__screen-doodles" aria-hidden="true">
+            <span class="hero__screen-star"></span>
+            <span class="hero__screen-plus"></span>
+            <span class="hero__screen-pen"></span>
+          </div>
           <div class="hero__poster">
-            <div class="hero__poster-tag">Highlight Placeholder</div>
-            <p>Swap this card with your latest teaser, concert poster, or livestream embed.</p>
-            <button class="pill pill--ghost" type="button">Play Highlight Reel</button>
+            <div class="hero__poster-antenna hero__poster-antenna--left" aria-hidden="true"></div>
+            <div class="hero__poster-antenna hero__poster-antenna--right" aria-hidden="true"></div>
+            <div class="hero__poster-shell">
+              <div class="hero__poster-frame">
+                <div class="hero__poster-tag">Highlight Placeholder</div>
+                <p>Swap this card with your latest teaser, concert poster, or livestream embed.</p>
+                <button class="pill pill--ghost" type="button">Play Highlight Reel</button>
+              </div>
+            </div>
           </div>
           <div class="hero__badge">
             <p>Need quick info?</p>

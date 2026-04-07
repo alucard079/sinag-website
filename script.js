@@ -19,7 +19,7 @@ handleScroll();
 // Nav indicator + section syncing
 const navLinks = document.querySelectorAll('.nav__menu a[href^="#"]');
 const navIndicator = document.querySelector('.nav__indicator');
-let activeLink = navLinks[0] || null;
+let activeLink = document.querySelector('.nav__menu a[data-default-nav="true"]') || navLinks[0] || null;
 
 const moveIndicator = (target) => {
   if (!navIndicator || !navMenu || !target) return;
