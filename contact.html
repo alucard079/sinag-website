@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The SINAG Movement · Sumiklab, Mag-Alab, Sumilab!</title>
-  <meta name="description" content="SINAG — a Filipino word for ray of light. An annual youth concert and movement to encourage, engage, and empower the youth. SINAG 2026: Sumiklab, Mag-Alab, Sumilab!" />
+  <title>Contact Us — The SINAG Movement</title>
+  <meta name="description" content="Get in touch with the SINAG Movement. Sponsor a segment, host a campus conversation, volunteer your creative team, or partner with us for SINAG 2026." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
@@ -37,73 +37,74 @@
 
   <main>
 
-    <!-- HERO -->
-    <section class="hero" id="home">
-      <div class="hero__bg" aria-hidden="true"></div>
-      <div class="hero__rays"     aria-hidden="true"></div>
-      <div class="hero__halftone" aria-hidden="true"></div>
-      <div class="hero__glow hero__glow--orange" aria-hidden="true"></div>
-      <div class="hero__glow hero__glow--red"    aria-hidden="true"></div>
-
+    <!-- CONTACT -->
+    <section class="section section--dark page-top" id="contact">
       <div class="container">
-        <div class="hero__content">
+        <div class="contact-grid">
 
-          <div class="hero__eyebrow">
-            <span class="hero__dot hero__dot--orange"></span>
-            Annual Youth Concert &amp; Movement
-            <span class="hero__dot hero__dot--gold"></span>
-            Youth on the Rock Cavite
+          <div class="contact-info">
+            <div class="eyebrow eyebrow--light">Contact Us</div>
+            <h2 class="section-title section-title--light">Let's build<br><em>something bright.</em></h2>
+            <p class="contact-lead">Tell us how you want to support SINAG 2026 — sponsor a segment, host a pre-event talk, send talents, or volunteer your creative team.</p>
+            <div class="contact-types">
+              <div class="contact-type reveal">
+                <div class="contact-type__icon" style="background:rgba(255,122,0,.15);color:var(--orange)">✦</div>
+                <div>
+                  <h4>Sponsors &amp; Donors</h4>
+                  <p>Request the media values sheet and partnership deliverables.</p>
+                </div>
+              </div>
+              <div class="contact-type reveal">
+                <div class="contact-type__icon" style="background:rgba(56,167,255,.15);color:var(--sky)">◈</div>
+                <div>
+                  <h4>Campuses &amp; LGUs</h4>
+                  <p>Book SINAG conversations or satellite events in your community.</p>
+                </div>
+              </div>
+              <div class="contact-type reveal">
+                <div class="contact-type__icon" style="background:rgba(226,29,13,.15);color:var(--red)">◆</div>
+                <div>
+                  <h4>Creative Volunteers</h4>
+                  <p>Plug into documentation, graphics, or live coverage crews.</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <h1 class="hero__headline">
-            <span>Sumiklab,</span>
-            <span>Mag&#8209;Alab,</span>
-            <span class="hero__headline--accent">Sumilab!</span>
-          </h1>
+          <form class="contact-form" novalidate>
+            <div class="form-row">
+              <label class="form-field">
+                <span>Full Name</span>
+                <input type="text" placeholder="Juan Dela Cruz" autocomplete="name" />
+              </label>
+              <label class="form-field">
+                <span>Organization / Role</span>
+                <input type="text" placeholder="Campus Lead, NGO, Sponsor" />
+              </label>
+            </div>
+            <label class="form-field">
+              <span>Email Address</span>
+              <input type="email" placeholder="you@email.com" autocomplete="email" />
+            </label>
+            <label class="form-field">
+              <span>I'm interested in…</span>
+              <select>
+                <option>Becoming a sponsor</option>
+                <option>Hosting a campus conversation</option>
+                <option>Volunteering</option>
+                <option>Booking SINAG for my community</option>
+              </select>
+            </label>
+            <label class="form-field">
+              <span>Message</span>
+              <textarea rows="4" placeholder="Share your ideas, expectations, or questions"></textarea>
+            </label>
+            <button class="btn btn--orange btn--full" type="submit">Send Message →</button>
+          </form>
 
-          <p class="hero__sublabel">The SINAG Movement · 2026</p>
-          <p class="hero__lead"><em>SINAG</em> — a Filipino word for a ray of light. A movement built to encourage, engage, and empower the youth toward a future filled with purpose and passion.</p>
-
-          <div class="hero__ctas">
-            <a class="btn btn--red" href="about.html">Get Involved →</a>
-            <a class="btn btn--ghost" href="2026.html">2026 Concert</a>
-          </div>
-
-          <div class="hero__chips">
-            <span class="chip chip--orange">✦ Siklab</span>
-            <span class="chip chip--gold">✦ Alab</span>
-            <span class="chip chip--red">✦ Silab</span>
-          </div>
         </div>
-
-        <div class="hero__poster">
-          <div class="hero__poster-label">Official Poster</div>
-          <p>Drop the SINAG 2026 official concert poster here</p>
-          <span class="hero__poster-hint">assets/poster-2026.jpg · ratio 3:4</span>
-        </div>
-      </div>
-
-      <div class="hero__scroll" aria-hidden="true">
-        <span>Scroll</span>
-        <div class="hero__scroll-line"></div>
       </div>
     </section>
-
-    <!-- MARQUEE -->
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee__track">
-        <span>THE SINAG MOVEMENT</span><span>✦</span>
-        <span>Sumiklab, Mag-Alab, Sumilab!</span><span>✦</span>
-        <span>Siklab · Alab · Silab</span><span>✦</span>
-        <span>SINAG 2026</span><span>✦</span>
-        <span>Youth on the Rock Cavite</span><span>✦</span>
-        <span>THE SINAG MOVEMENT</span><span>✦</span>
-        <span>Sumiklab, Mag-Alab, Sumilab!</span><span>✦</span>
-        <span>Siklab · Alab · Silab</span><span>✦</span>
-        <span>SINAG 2026</span><span>✦</span>
-        <span>Youth on the Rock Cavite</span><span>✦</span>
-      </div>
-    </div>
 
   </main>
 

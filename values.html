@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Values &amp; Framework — The SINAG Movement</title>
+  <meta name="description" content="Explore the SINAG Framework — Sino, Isyu, Naratibo, Aksyon, Gabay — and the three core values: Siklab, Alab, and Silab that define the movement." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-bar" id="top">
+    <div class="container">
+      <nav class="nav">
+        <a class="nav__logo" href="index.html" aria-label="SINAG Movement home">
+          <img src="assets/logo-official.png" alt="The SINAG Movement" />
+        </a>
+        <button class="nav__hamburger" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav__links" id="navMenu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="values.html">Values</a>
+          <a href="2026.html">2026</a>
+          <a href="sponsorship.html">Sponsorship</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <a class="nav__cta" href="contact.html">Partner With Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── FRAMEWORK: intro header ─────────────────────────── -->
+    <section class="section section--blue page-top fw-intro-section" id="framework">
+      <div class="container">
+        <div class="fw-intro reveal">
+          <div class="eyebrow eyebrow--light">The SINAG Framework</div>
+          <h2 class="section-title section-title--light">Five letters.<br><em>One journey.</em></h2>
+          <p class="section-lead section-lead--light">Scroll through each dimension of the SINAG movement — a story that every young person walks through, from identity to transformation.</p>
+          <div class="fw-intro__scroll-hint">
+            <div class="fw-intro__scroll-line"></div>
+            <span>Scroll to explore</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FRAMEWORK: Sticky scroll theater ────────────────── -->
+    <div class="fw-scroll" id="fwScroll">
+      <div class="fw-stage" id="fwStage">
+
+        <!-- Side progress bar -->
+        <div class="fw-progress" aria-hidden="true">
+          <div class="fw-progress__fill" id="fwProgressFill"></div>
+        </div>
+
+        <!-- Dot grid (inherited from section--blue, replicated here) -->
+        <div class="fw-dotgrid" aria-hidden="true"></div>
+
+        <!-- Counter -->
+        <div class="fw-counter" aria-hidden="true">
+          <span class="fw-counter__current" id="fwCounterCurrent">01</span>
+          <span class="fw-counter__sep">/</span>
+          <span class="fw-counter__total">05</span>
+        </div>
+
+        <!-- Nav dots -->
+        <div class="fw-dots" aria-hidden="true">
+          <span class="fw-dot active" data-target="0"></span>
+          <span class="fw-dot" data-target="1"></span>
+          <span class="fw-dot" data-target="2"></span>
+          <span class="fw-dot" data-target="3"></span>
+          <span class="fw-dot" data-target="4"></span>
+        </div>
+
+        <!-- S — Sino · orange bg, white text -->
+        <div class="fw-scene active" data-index="0" data-bg="#FF7A00"
+             style="--fw-num-color:rgba(255,255,255,.4);--fw-word-color:#fff;--fw-body-color:rgba(255,255,255,.78)">
+          <div class="fw-scene__ghost" aria-hidden="true">S</div>
+          <div class="fw-scene__letter" style="color:#fff">S</div>
+          <div class="fw-scene__content">
+            <div class="fw-scene__num">01 — Framework</div>
+            <div class="fw-scene__word">Sino</div>
+            <p class="fw-scene__body">Understanding identity, self-worth, and belonging. Every young person must first know who they are and recognize their value before they can walk in their purpose.</p>
+            <div class="fw-scene__tag" style="--tag-color:#fff">Identity</div>
+          </div>
+        </div>
+
+        <!-- I — Isyu · deep blue bg, sky accent -->
+        <div class="fw-scene" data-index="1" data-bg="#001e8a"
+             style="--fw-num-color:rgba(255,255,255,.3);--fw-word-color:#fff;--fw-body-color:rgba(255,255,255,.62)">
+          <div class="fw-scene__ghost" aria-hidden="true">I</div>
+          <div class="fw-scene__letter" style="color:#38A7FF">I</div>
+          <div class="fw-scene__content">
+            <div class="fw-scene__num">02 — Framework</div>
+            <div class="fw-scene__word">Isyu</div>
+            <p class="fw-scene__body">Recognizing the realities and challenges faced by today's youth — social pressures, emotional struggles, and the life-altering decisions they face every day.</p>
+            <div class="fw-scene__tag" style="--tag-color:#38A7FF">Awareness</div>
+          </div>
+        </div>
+
+        <!-- N — Naratibo · gold bg, dark text -->
+        <div class="fw-scene" data-index="2" data-bg="#FFC42D"
+             style="--fw-num-color:rgba(0,0,0,.35);--fw-word-color:#0A0A0A;--fw-body-color:rgba(0,0,0,.6)">
+          <div class="fw-scene__ghost" aria-hidden="true">N</div>
+          <div class="fw-scene__letter" style="color:#002EAB">N</div>
+          <div class="fw-scene__content">
+            <div class="fw-scene__num">03 — Framework</div>
+            <div class="fw-scene__word">Naratibo</div>
+            <p class="fw-scene__body">Reframing the story of the youth — not as problems to be solved, but as individuals filled with potential, purpose, and an unstoppable capacity for hope.</p>
+            <div class="fw-scene__tag" style="--tag-color:#002EAB">Narrative</div>
+          </div>
+        </div>
+
+        <!-- A — Aksyon · red bg, white text -->
+        <div class="fw-scene" data-index="3" data-bg="#E21D0D"
+             style="--fw-num-color:rgba(255,255,255,.38);--fw-word-color:#fff;--fw-body-color:rgba(255,255,255,.72)">
+          <div class="fw-scene__ghost" aria-hidden="true">A</div>
+          <div class="fw-scene__letter" style="color:#fff">A</div>
+          <div class="fw-scene__content">
+            <div class="fw-scene__num">04 — Framework</div>
+            <div class="fw-scene__word">Aksyon</div>
+            <p class="fw-scene__body">Transforming awareness into engagement through meaningful initiatives, participation, and purposeful opportunities for service and community involvement.</p>
+            <div class="fw-scene__tag" style="--tag-color:#fff">Action</div>
+          </div>
+        </div>
+
+        <!-- G — Gabay · cream bg, dark text -->
+        <div class="fw-scene" data-index="4" data-bg="#FFF7E6"
+             style="--fw-num-color:rgba(0,0,0,.3);--fw-word-color:#0A0A0A;--fw-body-color:rgba(0,0,0,.58)">
+          <div class="fw-scene__ghost" aria-hidden="true">G</div>
+          <div class="fw-scene__letter" style="color:#FF7A00">G</div>
+          <div class="fw-scene__content">
+            <div class="fw-scene__num">05 — Framework</div>
+            <div class="fw-scene__word">Gabay</div>
+            <p class="fw-scene__body">Sustaining growth through mentorship, leadership, and community support that helps young people continue walking in purpose long after the event ends.</p>
+            <div class="fw-scene__tag" style="--tag-color:#FF7A00">Mentorship</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── CORE VALUES: Glow cards ──────────────────────────── -->
+    <section class="section section--blue" id="values">
+      <div class="container">
+
+        <div class="vc-header reveal">
+          <div class="eyebrow eyebrow--light">Core Values</div>
+          <h3 class="section-title section-title--light section-title--sm">Three sparks. <em>One movement.</em></h3>
+        </div>
+
+        <div class="vc-grid">
+
+          <div class="vc reveal" style="--vc-color: var(--orange)">
+            <div class="vc__glow"></div>
+            <div class="vc__num">01</div>
+            <div class="vc__icon">✦</div>
+            <div class="vc__name">Siklab</div>
+            <p class="vc__tagline">Pag-asa ng Kabataan &mdash; <em>The Youth's Ignition of Hope</em></p>
+            <div class="vc__body">
+              <p>Hope begins with a spark. Every young person deserves to be seen, heard, and supported. SINAG fosters a culture of inclusivity, encouragement, and belonging where no one is left behind.</p>
+              <ul class="vc__list">
+                <li>Life &amp; Support Groups</li>
+                <li>Consolidation &amp; Mentorship</li>
+                <li>Outreach Programs</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="vc reveal reveal--delay-1" style="--vc-color: var(--sky)">
+            <div class="vc__glow"></div>
+            <div class="vc__num">02</div>
+            <div class="vc__icon">◈</div>
+            <div class="vc__name">Alab</div>
+            <p class="vc__tagline">Epekto ng Kabataan &mdash; <em>The Youth's Burning Impact</em></p>
+            <div class="vc__body">
+              <p>From discovery to action, the youth are empowered to make an impact. Every young person has a unique set of skills and talents that, when cultivated, can create lasting change.</p>
+              <ul class="vc__list">
+                <li>Talent &amp; Skill Development</li>
+                <li>Collaboration &amp; Community Engagement</li>
+                <li>Creative Expression</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="vc reveal reveal--delay-2" style="--vc-color: var(--gold)">
+            <div class="vc__glow"></div>
+            <div class="vc__num">03</div>
+            <div class="vc__icon">◆</div>
+            <div class="vc__name">Silab</div>
+            <p class="vc__tagline">Pagbabago ng Kabataan &mdash; <em>The Youth's Blaze of Transformation</em></p>
+            <div class="vc__body">
+              <p>Fueled by passion and purpose, young people rise as advocates for change. Youth are not just the future — they are the present force for transformation in their communities.</p>
+              <ul class="vc__list">
+                <li>Youth Advocacy Campaigns</li>
+                <li>Community Service &amp; Volunteerism</li>
+                <li>Leadership &amp; Empowerment Programs</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CALLOUT BAND ──────────────────────────────────────── -->
+    <div class="callout-band">
+      <div class="container">
+        <p><strong>SINAG</strong> is more than just an event — it is a legacy of light. Through Siklab, Alab, and Silab, we are building a movement that not only inspires but equips and empowers young people to rise above challenges and shine in their own ways.</p>
+        <strong class="callout-band__line">Together, we will bring hope, make an impact, and ignite transformation.</strong>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo-official.png" alt="The SINAG Movement" class="footer-logo" loading="lazy" />
+          <p>A legacy of light. A movement of hope.</p>
+          <p class="footer-copy">Youth on the Rock Cavite</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="values.html">Values</a>
+          <a href="2026.html">2026 Theme</a>
+          <a href="sponsorship.html">Sponsorship</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <a href="mailto:support@sinagmovement.ph">support@sinagmovement.ph</a>
+          <a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a>
+          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">TikTok</a>
+          <a href="https://www.youtube.com" target="_blank" rel="noreferrer">YouTube</a>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay Connected</h4>
+          <p>Subscribe for SINAG updates.</p>
+          <form class="newsletter-form" novalidate>
+            <input type="email" placeholder="Enter your email" autocomplete="email" />
+            <button type="submit" aria-label="Subscribe">→</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 The SINAG Movement · All rights reserved.</span>
+        <a href="#top" class="footer-back">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
