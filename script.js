@@ -40,7 +40,7 @@ document.querySelectorAll('.nav__links a').forEach(link => {
 
 // ── Scroll reveal ─────────────────────────────────────────────
 const autoReveal = document.querySelectorAll(
-  '.sinag-card, .value-card, .sponsor-impact, .about-stats, .theme-context-card, .sponsor-cta-band'
+  '.sinag-card, .value-card, .sponsor-package, .about-stats, .theme-context-card, .sponsor-cta-band'
 );
 
 autoReveal.forEach((el, i) => {
