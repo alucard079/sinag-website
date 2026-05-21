@@ -900,7 +900,7 @@ button, input, select, textarea { font: inherit; }
 }
 
 .sponsor-package--platinum { --package-bg: #f6b92f; --package-panel: #e85b18; }
-.sponsor-package--gold { --package-bg: #d8efff; --package-panel: #1568c6; }
+.sponsor-package--gold { --package-bg: #fff0b8; --package-panel: #f4b000; }
 .sponsor-package--silver { --package-bg: #d7edc3; --package-panel: #0c8a55; }
 .sponsor-package--community { --package-bg: #dcefff; --package-panel: #075dcc; }
 
