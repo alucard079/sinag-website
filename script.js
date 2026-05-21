@@ -6,6 +6,13 @@
 const hamburger = document.querySelector('.nav__hamburger');
 const navMenu   = document.querySelector('#navMenu');
 
+function closeMobileNav() {
+  hamburger?.setAttribute('aria-expanded', 'false');
+  hamburger?.classList.remove('is-open');
+  navMenu?.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 hamburger?.addEventListener('click', () => {
   const open = hamburger.getAttribute('aria-expanded') === 'true';
   hamburger.setAttribute('aria-expanded', String(!open));
@@ -16,12 +23,13 @@ hamburger?.addEventListener('click', () => {
 
 navMenu?.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
-    hamburger?.setAttribute('aria-expanded', 'false');
-    hamburger?.classList.remove('is-open');
-    navMenu.classList.remove('open');
-    document.body.style.overflow = '';
+    closeMobileNav();
   });
 });
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 900) closeMobileNav();
+}, { passive: true });
 
 // ── Nav: sticky shadow ────────────────────────────────────────
 const navBar = document.querySelector('.nav-bar');
